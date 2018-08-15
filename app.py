@@ -118,7 +118,7 @@ app.layout = html.Div([
                             className='col-lg-12 col-md-12 col-sm-12 col-xs-12'),
                         html.Br([]),
                         html.Div( #Insert Box plot...
-                            dcc.Graph(id='box-plot'),
+                            dcc.Graph(id='box-plot', config=dict(displayModeBar=False)),
                             className='col-lg-12 col-md-12 col-sm-12 col-xs-12'),
 
 
@@ -130,7 +130,7 @@ app.layout = html.Div([
                                   animate=True)
                     ]),
                     html.Div([
-                        html.H6('About DataRaft', config=dict(displayModeBar=False)),
+                        html.H6('About DataRaft'),
                         html.P('DataRaft provides services in Customer Strategy and Data Analytics.  Our unique value comes from our domain expertise from experience working in senior strategy and marketing roles for ASX 200 organisations.'),
                         html.Br([])
                     ], style={'color': 'white'})
