@@ -6,3 +6,7 @@ For more information on Dash libarary, please visit https://plot.ly/products/das
 
 Screen Copy: 
 <img src="https://github.com/robin0821/mel_estate/blob/master/screen_copy.png">
+
+Live demo:
+http://mel-estate.herokuapp.com
+
